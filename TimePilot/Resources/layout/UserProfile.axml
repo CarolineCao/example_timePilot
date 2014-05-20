@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/TaskDetailsHeader"
+        android:text="@string/createUserProfileLabel"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/NameLabel"
+        android:text="@string/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:maxLines="1" />
+    <TextView
+        android:id="@+id/UserIdLabel"
+        android:text="@string/userIDLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/UserIdEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NotesLabel"
+        android:maxLines="1"
+        android:maxLength="4"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btnCancelDelete"
+        android:text="@string/cancelLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userIDEdit" />
+    <Button
+        android:id="@+id/btnSave"
+        android:text="@string/saveLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:layout_below="@+id/btnCancelDelete" />
+</LinearLayout>

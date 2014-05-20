@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/widget_loading"
+        android:orientation="horizontal"
+        android:background="@android:color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="39dp">
+        <TextView
+            android:id="@+id/AboutLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:text="@string/AboutLabel"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/About_Content"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:id="@+id/btnTimePilotWebSite"
+            android:text="@string/TimePilotWebSite"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip" />
+        <Button
+            android:id="@+id/btnTimePilotAppSupport"
+            android:text="@string/TimePilotAppSupport"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip" />
+    </LinearLayout>
+</LinearLayout>

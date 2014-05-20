@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webViewBox"
+        android:layout_x="0.0dip"
+        android:layout_y="0.0dip"
+        android:layout_weight="1.0" />
+    <Button
+        android:text="For test"
+        android:layout_width="100px"
+        android:layout_height="0px"
+        android:id="@+id/testbutton" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+       android:key="pref_generalSetupKey"
+        android:title="@string/generalSetupLabel"
+        android:persistent="false">
+    <EditTextPreference
+        android:key="pref_phoneName"
+        android:title="@string/phoneNameTitle"
+        android:summary=""
+        android:defaultValue="" />
+    <EditTextPreference
+        android:key="pref_phoneNumber"
+        android:title="@string/phoneNumberTitle"
+        android:summary="@string/phoneNumberSummary"
+        android:defaultValue="" />
+  </PreferenceCategory>
+  <CheckBoxPreference
+      android:key="pref_dropboxOn"
+      android:title="Dropbox Log in"
+      android:summary="@string/dropboxSummary"
+      android:defaultValue="false" />
+  <EditTextPreference
+      android:key="pref_changeAnotherAccount"
+       android:title="Change Dropbox Account"
+    />
+  <CheckBoxPreference
+      android:key="pref_fastClockIn"
+      android:title="@string/fastClockInTitle"
+      android:summary="@string/fastClockInSummary"
+      android:defaultValue="false" />
+  <CheckBoxPreference
+      android:key="pref_milTime"
+      android:title="@string/militaryTimeTitle"
+      android:summary="@string/militaryTimeSummary"
+      android:defaultValue="false" />
+  <EditTextPreference
+      android:key="pref_about"
+      android:title="@string/aboutTimePilotTitle" 
+      />
+</PreferenceScreen>
+

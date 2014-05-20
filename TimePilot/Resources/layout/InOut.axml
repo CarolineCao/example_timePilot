@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/NameandNumber"
+      android:layout_gravity="center_horizontal" />
+
+  <Button
+       android:text="@string/inLabel"
+       android:drawableLeft="@drawable/red_arrow_20x20_72"
+       android:layout_gravity="center_horizontal"
+     android:layout_width="200dp"
+      android:layout_height="39dp"
+       android:paddingRight="39dp"
+       android:id="@+id/inButton"
+         />
+  <Button
+       android:text="@string/outLabel"
+       android:layout_width="200dp"
+       android:layout_height="39dp"
+       android:id="@+id/outButton"
+       android:layout_gravity="center_horizontal"
+            />
+  <Button
+      android:text="@string/clearUserRecordsLabel"
+      android:layout_width="200dp"
+      android:layout_height="39dp"
+      android:id="@+id/clearButton"
+      android:layout_gravity="center_horizontal"
+            />
+
+  <Button
+      android:text="@string/editUserLabel"
+      android:layout_width="200dp"
+      android:layout_height="39dp"
+      android:id="@+id/editUserButton"
+      android:layout_gravity="center_horizontal"
+            />
+  <Button
+    android:text="@string/deleteUserLabel"
+    android:layout_width="200dp"
+    android:layout_height="39dp"
+    android:id="@+id/deleteUserButton"
+    android:layout_gravity="center_horizontal"
+            />
+  <Button
+ android:text="@string/cancelLabel"
+ android:layout_width="200dp"
+ android:layout_height="39dp"
+ android:id="@+id/cancelButton"
+ android:layout_gravity="center_horizontal"
+            />
+
+</LinearLayout>

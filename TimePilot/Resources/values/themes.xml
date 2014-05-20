@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="TimePilotTheme" parent="@android:style/Theme.Light.NoTitleBar">
+    <!-- Any customizations for your app running on pre-3.0 devices here -->
+  </style>
+  <style name="Preferences" parent="@android:style/Theme">
+  </style>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="backLabel">Back</string>
+  <string name="plusSymbol">+</string>
+  <string name="inOut">In/Out: </string>
+  <string name="dateLabel">Date: </string>
+  <string name="timeLabel">Time: </string>
+  <string name="nameLabel">Name:</string>
+  <string name="numberLabel">Number:</string>
+  <string name="numberLabelNoSymbols">Number: (No symbols)</string>
+  <string name="cancelLabel">Cancel</string>
+  <string name="saveLabel">Save</string>
+  <string name="doneLabel">Done</string>
+  <string name="editLabel">Edit</string>
+  <string name="timePilotLabel">TimePilot</string>
+  <string name="settingsLabel">Settings</string>
+  <string name="deleteEmployeeBtn">Delete This Employee</string>
+  <string name="outLabel">Clock Out</string>
+  <string name="inLabel">Clock In</string>
+  <string name="timeTransactionLabel">Time Transaction</string>
+  <string name="editUserLabel">Edit User</string>
+  <string name="deleteUserLabel">Delete User</string>
+  <string name="clearUserRecordsLabel">Clear User Records</string>
+  <string name="phoneInfoLabel">Phone Info</string>
+  <string name="phoneInfoInstructions">Enter your area code and phone number with no dashes or punctuation.</string>
+  <string name="phoneInfoCompletion">You phone\'s name and number will be used locally in keeping track of your records.</string>
+  <string name="generalSetupLabel">General Setup</string>
+  <string name="dropboxSetupLabel">Dropbox Setup</string>
+  <string name="createUserProfileLabel">Create Employee Profile</string>
+  <string name="editUserProfileLabel">Edit Employee Profile</string>
+  <string name="userIDLabel">User ID:</string>
+  <string name="militaryTimeTitle">24-Hour Time</string>
+  <string name="militaryTimeSummary">Display all times in 24-hour format.</string>
+  <string name="aboutTimePilotTitle">About TimePilot</string>
+  <string name="aboutTimePilotSummary">Blah Blah</string>
+  <string name="insertTransactionLabel">Insert Transaction</string>
+  <string name="phoneNameTitle">Phone Name</string>
+  <string name="phoneNumberTitle">Phone Number</string>
+  <string name="phoneNumberSummary">Enter in the associated phone number</string>
+  <string name="dropboxSettingsTitle">Dropbox Settings</string>
+  <string name="dropboxLogInTitle">Dropbox Log in</string>
+  <string name="autoUpdateProfilesTitle">Auto Update Profiles</string>
+  <string name="autoUpdateProfilesSummary">You must be linked with Dropbox to automatically look for new profiles</string>
+  <string name="fastClockInTitle">Fast Clock-In</string>
+  <string name="fastClockInSummary">Simply swipe to the right to clock in or to the left to clock out for any profile.</string>
+  <string name="setupDropboxTitle">Setup Dropbox</string>  
+  <string name="dropboxInitialSummary">Click here to setup Dropbox.\nThis may take a minute or two to load, please be patient.</string>
+  <string name="dropboxSummary">Click here to setup Dropbox.\nThis may take a minute or two to load, please be patient.</string>
+  <string name="secretKeyTitle">Please enter the app secret key</string>
+  <string name="secretKeySummary">Enter in the Dropbox app secret key</string>
+  <string name="clearuserrecord">Clear User Records</string>
+  <string name="displaymap">Display Map</string>
+  <string name="insertatransaction">Insert Transaction</string>
+  <string name="deletetransaction">Delete Transaction</string>
+  <string name="cancel">Cancel</string>
+  <string name="AboutLabel">About</string>
+  <string name="TimePilotCorporation">TimePilot Corporation</string>
+  <string name="TimePilotWebSite">TimePilot Web Site</string>
+  <string name="TimePilotAppSupport">TimePilot App Support</string>
+  <string name="AppCancelLabel">Cancel</string>
+  <string name="changeDropboxAccount">change Dropbox Account</string>
+
+
+</resources>
